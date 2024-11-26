@@ -1,0 +1,123 @@
+body {
+    margin: 0 auto;
+}
+
+main {
+    margin: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #d4a373;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+    padding: 20px;
+}
+
+.navbar a {
+    color: #582f0e;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    padding: 6px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a:hover {
+    background-color: #b8895a;
+    transition-duration: 0.25s;
+}
+
+.navbar img {
+    width: 20px;
+    margin-right: 8px;
+    mix-blend-mode: multiply;
+}
+
+.title-name {
+    color: #ff7096;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+}
+
+.info-1,
+.info-2,
+.info-3,
+.info-4,
+.info-5 {
+    margin-right: 520px;
+    margin-left: 20px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+
+.info-4 {
+    display: none
+}
+
+.info4-button,
+.info5-button {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #ff7096;
+    background-color: rgb(255, 233, 254);
+    border: none;
+    display: block;
+}
+
+.info4-button:hover,
+.info5-button:hover {
+    cursor: pointer;
+}
+
+.info4-button:active,
+.info5-button:active {
+    color: white;
+
+}
+
+.info-5 {
+    display: none;
+}
+
+.PlasticPollution-image {
+    border-radius: 18px;
+    margin-left: 20px;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.PlasticCycle-image {
+    border-radius: 18px;
+    margin-left: 20px;
+    width: 502px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: left;
+    padding: 3px;
+    background-color: #d4a373;
+    margin-top: 60px;
+}
+
+.footer-text {
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #582f0e;
+    font-size: 20px;
+
+}
